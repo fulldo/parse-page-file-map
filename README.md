@@ -1,5 +1,5 @@
-# react-typescript-eslint-webpack
+# 运行
 
-Webpack template for a React app with TypeScript and ESLint
-
-this template copy from: https://github.com/carlrip/react-typescript-eslint-webpack
+```bash
+yarn ts-node -O '{"module":"commonJS","esModuleInterop":true}' --files -r tsconfig-paths/register parse.js
+```
